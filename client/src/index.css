@@ -1,0 +1,18 @@
+:root {
+  --navbarHeight: 64px;
+  --darkPrimary: #212529;
+  --darkSecondary: #000;
+  --lightPrimary: #f8f9fa;
+  --lightSecondary: #fff;
+  --transitionTime: 200ms;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: var(--navbarHeight);
+  background-color: transparent;
+  overflow-x: hidden;
+}

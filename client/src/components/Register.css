@@ -1,0 +1,37 @@
+.shadow-dark {
+  box-shadow: 0 3px 10px rgba(255, 255, 255, 0.2);
+}
+
+.shadow-light {
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+#password-tooltip {
+  opacity: 0.9;
+}
+
+#password-tooltip-icon {
+  cursor: pointer;
+}
+
+#password-tooltip .tooltip-inner {
+  text-align: left;
+}
+
+#password-tooltip.dark .tooltip-inner {
+  background-color: var(--lightPrimary);
+  color: var(--darkSecondary);
+}
+
+#password-tooltip.dark .tooltip-arrow::before {
+  border-right-color: var(--lightPrimary);
+}
+
+#password-tooltip.light .tooltip-inner {
+  background-color: var(--darkPrimary);
+  color: var(--lightSecondary);
+}
+
+#password-tooltip.light .tooltip-arrow::before {
+  border-right-color: var(--darkPrimary);
+}
