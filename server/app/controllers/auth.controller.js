@@ -1,16 +1,23 @@
 /*
 Authentication functions
-- signup: create new User in database (default role: user)
-- signin:
+- signup(): create new User in database (default role: user)
+- signin():
   - Find username of the request in database (if it exists)
   - Verify if provided password matches DB password using bcrypt
   - Generate a token using jsonwebtoken
   - Return user information and access token
+- refreshToken():
+  - Get the refresh token from request data
+  - Get {id, user, token, expiryDate} from raw token using in-built Mongoose CRUD method in RefreshToken model
+  - Verify the token (expired or not) based on expiryDate field. If the Refresh Token was expired, remove it from MongoDB database and throw error message
+  - Use user-provided RefreshToken object's _id field to generate new access token using jsonwebtoken library
+  - Return { new accessToken, refreshToken }, else send error message
 */
 const config = require("../config/auth.config");
 const db = require("../models");
 const User = db.user;
 const Role = db.role;
+const RefreshToken = db.refreshToken;
 
 var jwt = require("jsonwebtoken");
 var bcrypt = require("bcryptjs");
@@ -76,7 +83,7 @@ exports.signin = (req, res) => {
     username: req.body.username
   })
     .populate("roles", "-__v")
-    .exec((err, user) => {
+    .exec(async (err, user) => {
       if (err) {
         res.status(500).send({ message: err });
         return;
@@ -98,11 +105,13 @@ exports.signin = (req, res) => {
         });
       }
 
-      var token = jwt.sign({ id: user.id }, config.secret, {
-        expiresIn: 86400 // 24 hours
+      let token = jwt.sign({ id: user.id }, config.secret, {
+        expiresIn: config.jwtExpiration,
       });
 
-      var authorities = [];
+      let refreshToken = await RefreshToken.createToken(user);
+
+      let authorities = [];
 
       for (let i = 0; i < user.roles.length; i++) {
         authorities.push("ROLE_" + user.roles[i].name.toUpperCase());
@@ -112,7 +121,45 @@ exports.signin = (req, res) => {
         username: user.username,
         email: user.email,
         roles: authorities,
-        accessToken: token
+        accessToken: token,
+        refreshToken: refreshToken,
       });
     });
+};
+
+exports.refreshToken = async (req, res) => {
+  const { refreshToken: requestToken } = req.body;
+
+  if (requestToken == null) {
+    return res.status(403).json({ message: "Unauthorized: Refresh token required" });
+  }
+
+  try {
+    let refreshToken = await RefreshToken.findOne({ token: requestToken });
+
+    if (!refreshToken) {
+      res.status(403).json({ message: "Unauthorized: Invalid refresh token" });
+      return;
+    }
+
+    if (RefreshToken.verifyExpiration(refreshToken)) {
+      RefreshToken.findByIdAndRemove(refreshToken._id, { useFindAndModify: false }).exec();
+      
+      res.status(403).json({
+        message: "Unauthorized: Refresh token expired; please login again",
+      });
+      return;
+    }
+
+    let newAccessToken = jwt.sign({ id: refreshToken.user._id }, config.secret, {
+      expiresIn: config.jwtExpiration,
+    });
+
+    return res.status(200).json({
+      accessToken: newAccessToken,
+      refreshToken: refreshToken.token,
+    });
+  } catch (err) {
+    return res.status(500).send({ message: err });
+  }
 };

@@ -29,4 +29,8 @@ module.exports = function(app) {
   // CHANGED
   // app.post("/api/auth/signin", controller.signin);
   app.post("/auth/login", controller.signin);
+
+  // CHANGED
+  // app.post("/api/auth/refreshtoken", controller.refreshToken);
+  app.post("/auth/refreshtoken", controller.refreshToken);
 };
