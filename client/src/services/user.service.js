@@ -3,9 +3,9 @@ request for authorized resources */
 import axios from "axios";
 import authHeader from "./auth-header";
 
-const API_URL = "http://localhost:8080/api/test/";
-// TO CHANGE
-// const API_URL = "http://localhost:8080/dashboard/";
+// CHANGED
+// const API_URL = "http://localhost:8080/api/test/";
+const API_URL = "http://localhost:8080/dashboard/";
 
 const getPublicContent = () => {
   return axios.get(API_URL + "all");

@@ -159,6 +159,9 @@ psd
 thumb
 sketch
 
+# DB config
+server/app/config/db.config.js
+
 # End of https://www.toptal.com/developers/gitignore/api/react,node
 /server/config/db.config.js
 /test.txt
