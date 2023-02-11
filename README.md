@@ -1,4 +1,6 @@
 # Fanpage v4
+## Open documentation files with
+[DrawIO](https://app.diagrams.net/)
 ## v 4.0.3
 - Backend
 	- [Refresh Token](https://www.bezkoder.com/jwt-refresh-token-node-js-mongodb/)
@@ -23,5 +25,6 @@
 - Frontend
 	- [Login, register](https://www.bezkoder.com/react-redux-login-example-toolkit-hooks/)
 	- [Dark/light mode](https://codesandbox.io/s/ekeun?file=/src/components/Header.js)
-## Open documentation files with
-[DrawIO](https://app.diagrams.net/)
+## Fixes
+## v 4.0.3.1
+- Minor frontend fixes

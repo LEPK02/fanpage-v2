@@ -11,9 +11,9 @@ import Login from "./components/Login";
 import Register from "./components/Register";
 import Home from "./components/Home";
 import Profile from "./components/Profile";
-import BoardUser from "./components/BoardAdmin";
+import BoardAdmin from "./components/BoardAdmin";
 import BoardModerator from "./components/BoardModerator";
-import BoardAdmin from "./components/BoardUser";
+import BoardUser from "./components/BoardUser";
 
 import { logout } from "./slices/auth";
 import { setDarkTheme, setLightTheme } from "./slices/theme";
@@ -57,7 +57,7 @@ const App = () => {
 
   useEffect(() => {
     // Show dashboards based on user level
-    if (currentUser) {
+    if (currentUser && currentUser.hasOwnProperty("roles")) {
       setShowModeratorBoard(currentUser.roles.includes("ROLE_MODERATOR"));
       setShowAdminBoard(currentUser.roles.includes("ROLE_ADMIN"));
     } else {

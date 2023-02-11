@@ -19,16 +19,16 @@ module.exports = function(app) {
 
   // CHANGED
   // app.get("/api/test/all", controller.allAccess);
-  app.get("/all", controller.allAccess);
+  app.get("/dashboard/all", controller.allAccess);
 
   // CHANGED
   // app.get("/api/test/user", [authJwt.verifyToken], controller.userBoard);
-  app.get("/user", [authJwt.verifyToken], controller.userBoard);
+  app.get("/dashboard/user", [authJwt.verifyToken], controller.userBoard);
 
   app.get(
     // CHANGED
     // "/api/test/mod",
-    "/mod",
+    "/dashboard/mod",
     [authJwt.verifyToken, authJwt.isModerator],
     controller.moderatorBoard
   );
@@ -36,7 +36,7 @@ module.exports = function(app) {
   app.get(
     // CHANGED
     // "/api/test/admin",
-    "/admin",
+    "/dashboard/admin",
     [authJwt.verifyToken, authJwt.isAdmin],
     controller.adminBoard
   );

@@ -282,14 +282,24 @@ const Register = () => {
                     )}
                     {/* Response message END */}
 
-                  {/* Link to login page START */}
+                    {/* Link to login page START */}
                     <div className="mt-3">
+                      
+                      {successful ?
+                      <p className="mb-0  text-center">
+                        Try logging into your new account&nbsp;
+                        <Link to="/login" className={`text-${themeSecondary} fw-bold`}>
+                          here
+                        </Link>
+                      </p>
+                      :
                       <p className="mb-0  text-center">
                         Already have an account?&nbsp;
                         <Link to="/login" className={`text-${themeSecondary} fw-bold`}>
                           Log In
                         </Link>
                       </p>
+                      }
                     </div>
                     {/* Link to login page END */}
                   </div>
