@@ -1,9 +1,9 @@
 /*
 Authorization routes (CHANGED: remove /api/test)
-- GET /all
-- GET /user for logged in users (user/moderator/admin)
-- GET /mod for moderator
-- GET /admin for admin
+- GET /dashboard/all
+- GET /dashboard/user for logged in users (user/moderator/admin)
+- GET /dashboard/mod for moderator
+- GET /dashboard/admin for admin
 */
 const { authJwt } = require("../middlewares");
 const controller = require("../controllers/user.controller");

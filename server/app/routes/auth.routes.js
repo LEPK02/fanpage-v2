@@ -2,6 +2,7 @@
 Authentication routes (CHANGED: remove api/)
 - POST /auth/register
 - POST /auth/login
+- POST /auth/refreshtoken
 */
 const { verifySignUp } = require("../middlewares");
 const controller = require("../controllers/auth.controller");

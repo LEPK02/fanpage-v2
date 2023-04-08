@@ -1,18 +1,18 @@
-* {
+/* * {
   -webkit-transition: background-color var(--transitionTime) linear !important;
   -ms-transition: background-color var(--transitionTime) linear !important;
   transition: background-color var(--transitionTime) linear !important;
-}
+} */
 
 .main-container {
-  height: calc(100vh - var(--navbarHeight));
+  height: calc(100vh - var(--navbarHeight)); /* fallback */
+  height: calc(var(--doc-height) - var(--navbarHeight));
   background-color: transparent;
 }
 
 .navbar {
   top: 0;
   height: var(--navbarHeight);
-  transition: top 0.3s;
 }
 
 .dark-switch {

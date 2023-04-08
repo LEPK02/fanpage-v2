@@ -69,9 +69,9 @@ const Register = () => {
         .required("Required"),
         password: Yup.string()
         .min(8, 'Invalid password')
-        .matches(/[0-9]/, 'Must contain at least 1 lowercase character')
-        .matches(/[a-z]/, 'Must contain at least 1 uppercase character')
-        .matches(/[A-Z]/, 'Must contain at least 1 number')
+        .matches(/[0-9]/, 'Must contain at least 1 number')
+        .matches(/[a-z]/, 'Must contain at least 1 lowercase character')
+        .matches(/[A-Z]/, 'Must contain at least 1 uppercase character')
         .matches(/[^\w]/, 'Must contain at least 1 special character')
         .max(40, "Must contain less than 41 characters")
         .required("Required"),
@@ -92,7 +92,7 @@ const Register = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
 
-  // Register using authService via Redux
+  // Register using AuthService via Redux
   const handleRegister = (formValue) => {
     const { username, email, password } = formValue;
 
@@ -287,7 +287,7 @@ const Register = () => {
                       
                       {successful ?
                       <p className="mb-0  text-center">
-                        Try logging into your new account&nbsp;
+                        Log into your new account&nbsp;
                         <Link to="/login" className={`text-${themeSecondary} fw-bold`}>
                           here
                         </Link>

@@ -16,7 +16,7 @@ import BoardModerator from "./components/BoardModerator";
 import BoardUser from "./components/BoardUser";
 
 import { logout } from "./slices/auth";
-import { setDarkTheme, setLightTheme } from "./slices/theme";
+import { changeBackground, DARK_COLOUR, LIGHT_COLOUR, setDarkTheme, setLightTheme } from "./slices/theme";
 
 import EventBus from "./common/EventBus";
 
@@ -32,6 +32,7 @@ const App = () => {
   // Theme via Redux
   const isDarkMode = useSelector((state) => state.theme.isDarkMode);
   const themePrimary = useSelector((state) => state.theme.themePrimary);
+  isDarkMode ? changeBackground(DARK_COLOUR) : changeBackground(LIGHT_COLOUR);
   
   // Get user from local storage via Redux
   const { user: currentUser } = useSelector((state) => state.auth);
@@ -46,7 +47,7 @@ const App = () => {
     dispatch(setLightTheme());
   }, [dispatch]);
 
-  // Log out using authService via Redux
+  // Log out using AuthService via Redux
   const logOut = useCallback(() => {
     dispatch(logout());
   }, [dispatch]);
@@ -75,6 +76,14 @@ const App = () => {
       EventBus.remove("logout");
     };
   }, [currentUser, logOut]);
+
+  // Set document height
+  const documentHeight = () => {
+    const doc = document.documentElement
+    doc.style.setProperty('--doc-height', `${window.innerHeight}px`)
+  }
+  window.addEventListener('resize', documentHeight);
+  documentHeight();
 
   // Show/hide navbar on scroll up/down
   var prevScrollpos = window.pageYOffset;
@@ -109,8 +118,8 @@ const App = () => {
               onClick={() => {
                 (() => {
                   isDarkMode ? setLight() : setDark();
-                  document.getElementById("root").style = (isDarkMode ? "background: #f8f9fa" : 'background: #212529;');
-                  document.body.style = (isDarkMode ? "background: #f8f9fa" : 'background: #212529;');
+                  document.getElementById("root").style = (isDarkMode ? `background: ${LIGHT_COLOUR}` : `background: ${DARK_COLOUR}`);
+                  document.body.style = (isDarkMode ? `background: ${LIGHT_COLOUR}` : `background: ${DARK_COLOUR}`);
                 })(isDarkMode);
               }}
             >

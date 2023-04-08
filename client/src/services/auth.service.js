@@ -1,18 +1,17 @@
 /* 
-* The service uses Axios for HTTP requests and
+* The service uses api for HTTP requests and
 * Local Storage for user information & JWT
 */
-import axios from "axios";
+import api from "./api";
+import TokenService from "./token.service";
 
-// CHANGED
-// const API_URL = "http://localhost:8080/api/auth/";
-const API_URL = "http://localhost:8080/auth/";
+const AUTH_ROUTE = "/auth/";
 
 // POST {username, email, password}
 const register = (username, email, password) => {
   // CHANGED
-  // return axios.post(API_URL + "signup", {
-  return axios.post(API_URL + "register", {
+  // return api.post(AUTH_ROUTE + "signup", {
+  return api.post(AUTH_ROUTE + "register", {
     username,
     email,
     password,
@@ -22,14 +21,14 @@ const register = (username, email, password) => {
 // POST {username, password} & save JWT to Local Storage
 const login = (username, password) => {
     // CHANGED  
-    // return axios.post(API_URL + "signin", {
-    return axios.post(API_URL + "login", {
+    // return api.post(AUTH_ROUTE + "signin", {
+    return api.post(AUTH_ROUTE + "login", {
     username,
     password,
   })
   .then((response) => {
     if (response.data.accessToken) {
-      localStorage.setItem("user", JSON.stringify(response.data));
+      TokenService.setUser(response.data);
     }
 
     return response.data;
@@ -38,13 +37,18 @@ const login = (username, password) => {
 
 // Remove JWT from Local Storage
 const logout = () => {
-  localStorage.removeItem("user");
+  TokenService.removeUser();
 };
 
-const authService = {
+const getCurrentUser = () => {
+  return JSON.parse(localStorage.getItem("user"));
+};
+
+const AuthService = {
   register,
   login,
   logout,
+  getCurrentUser,
 };
 
-export default authService;
+export default AuthService;

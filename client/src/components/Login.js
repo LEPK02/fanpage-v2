@@ -67,16 +67,16 @@ const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [loading, setLoading] = useState(false);
 
-  // Log in using authService via Redux
+  // Log in using AuthService via Redux
   const handleLogin = (formValue) => {
     const { username, password } = formValue;
     setLoading(true);
 
-    dispatch(login({ username, password })) // login() using authService via Redux
+    dispatch(login({ username, password })) // login using AuthService via Redux
       .unwrap()
       .then(() => {
         navigate("/profile");
-        window.location.reload();
+        // window.location.reload();
       })
       .catch(() => {
         setLoading(false);
