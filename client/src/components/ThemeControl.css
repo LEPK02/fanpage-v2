@@ -1,0 +1,22 @@
+.dark-switch {
+  filter: brightness(0) invert(1);
+}
+
+.light-switch {
+  filter: brightness(0.75);
+}
+
+#themeSwitch {
+  height: 100%;
+  width: min-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+#themeSwitch img {
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+}

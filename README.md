@@ -1,6 +1,8 @@
 # Fanpage v4
 ## Open documentation files with
 [DrawIO](https://app.diagrams.net/)
+## v 4.0.5
+- Navbar
 ## v 4.0.4
 - Refresh Token
 	- [Added Axios interceptors](https://www.bezkoder.com/redux-refresh-token-axios/)
