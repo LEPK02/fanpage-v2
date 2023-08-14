@@ -1,6 +1,13 @@
 # Fanpage v4
 ## Open documentation files with
 [DrawIO](https://app.diagrams.net/)
+## v 4.0.6
+- [Dockerize](https://www.bezkoder.com/docker-mern/)
+	- Start container: docker-compose up --build -d
+	- Access MongoDB shell:
+		- docker exec -it \<mongoContainerId\> /bin/sh
+		- mongosh --port 27017 -u root -p root --authenticationDatabase admin
+		- use <dbName>
 ## v 4.0.5
 - Navbar
 ## v 4.0.4
@@ -17,13 +24,6 @@
 ## v 4.0.2
 - Backend
 	- [JWT Authentication](https://www.bezkoder.com/node-js-mongodb-auth-jwt/)
-		- To connect to the DB, create server\app\config\db.config.js with DB connection parameters (used in server.js)
-			module.exports = {
-				HOST: "",
-				PASSWORD: "",
-				DB: "",
-				DB_NAME: ""
-			};
 		- Routes
 			- POST /auth/register
 			- POST /auth/login

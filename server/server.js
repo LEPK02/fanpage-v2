@@ -1,10 +1,11 @@
+require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 
 const app = express();
 
 var corsOptions = {
-  origin: "http://localhost:8081"
+  origin: process.env.CLIENT_ORIGIN || "http://localhost:8081"
 };
 
 // Add request body parser and cors middlewares using app.use()
@@ -18,7 +19,8 @@ const dbConfig = require("./app/config/db.config.js");
 const Role = db.role;
 db.mongoose
   // .connect(`mongodb://${dbConfig.HOST}:${dbConfig.PORT}/${dbConfig.DB}`, {
-  .connect(`mongodb+srv://${dbConfig.HOST}:${dbConfig.PASSWORD}@${dbConfig.DB}.rdkgayz.mongodb.net/${dbConfig.DB_NAME}?retryWrites=true&w=majority`, {
+  // .connect(`mongodb+srv://${dbConfig.HOST}:${dbConfig.PASSWORD}@${dbConfig.DB}.rdkgayz.mongodb.net/${dbConfig.DB_NAME}?retryWrites=true&w=majority`, {
+  .connect(dbConfig.url, {
     useNewUrlParser: true,
     useUnifiedTopology: true
   })
@@ -78,7 +80,7 @@ require('./app/routes/auth.routes')(app);
 require('./app/routes/user.routes')(app);
 
 // Set port, listen for requests
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.NODE_DOCKER_PORT || 8080;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });

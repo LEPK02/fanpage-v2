@@ -1,1 +1,475 @@
-<mxfile host="app.diagrams.net" modified="2023-01-30T13:55:05.932Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="mrf9TujiaruVgpFwTuIu" version="20.8.13" type="device"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">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</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-04-23T10:28:51.332Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="ZgCumeUbOfpmHCCFrj7N" version="21.2.1" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="3981" dy="2053" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="o78r06us4_VVv2FsRsMG-45" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;AuthService (auth.service.js)&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;API_URL: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - /auth&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;register()&amp;nbsp;&lt;/p&gt;&amp;nbsp; - Send POST request to register user (username, email, password)&lt;br&gt;&amp;nbsp;+&amp;nbsp;login()&lt;br&gt;&amp;nbsp; -&amp;nbsp;Send POST request to log in (username, password)&lt;br&gt;&amp;nbsp; -&amp;nbsp;If login successful, set x-access-token in local storage&lt;br&gt;+ logout()&lt;br&gt;&amp;nbsp; -&amp;nbsp;Remove token from local storage" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-140" y="-350" width="370" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="o78r06us4_VVv2FsRsMG-50" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;userService (user.service.js)&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;API_URL: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - /dashboard&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ getPublicContent()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - GET all content (/dashboard/all)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ getUserBoard()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Use authHeader() to GET user content (/dashboard/user)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ getModeratorBoard()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Use authHeader() to GET mod content (/dashboard/mod)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ getAdminBoard()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Use authHeader() to GET admin content (/dashboard/admin)&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-630" y="-360" width="400" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="o78r06us4_VVv2FsRsMG-52" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;messageSlice (message.js)&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;initialState: JSON Object&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - message: string&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ setMessage()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ clearMessage()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-75" y="350" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="o78r06us4_VVv2FsRsMG-53" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;authSlice (auth.js)&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ user: JSON Object&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Get user from local storage&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ initialState: JSON Object&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; - user&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; - isLoggedIn: boolean&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ register()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Await authService.register(), return response data&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - messageSlice.setMessage()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Update isLoggedIn&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;+ login()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; - Await authService.login(), return user and response data&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; - messageSlice.setMessage()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; - Update user, isLoggedIn&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;+ logout()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; - Await authService.logout()&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; - Update user, isLoggedIn&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;+ refreshToken()&lt;span style=&quot;color: rgb(230, 237, 243); font-family: ui-monospace, SFMono-Regular, &amp;quot;SF Mono&amp;quot;, Menlo, Consolas, &amp;quot;Liberation Mono&amp;quot;, monospace; background-color: rgba(46, 160, 67, 0.15);&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; - Update user&#39;s access token&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-120" y="-20" width="330" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="o78r06us4_VVv2FsRsMG-55" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="o78r06us4_VVv2FsRsMG-53" target="o78r06us4_VVv2FsRsMG-52" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint y="320" as="sourcePoint" />
+            <mxPoint x="160" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G19ihI2d8RyquOuAYGUl-0" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;themeSlice (theme.js)&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;initialState: JSON Object&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - isDarkMode: boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - themePrimary: string&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - themeSecondary: string&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+&amp;nbsp;changeBackground()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ setDarkTheme()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - isDarkMode = true&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - themePrimary = dark, themeSecondary = light&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ setLightTheme()&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; - isDarkMode = false&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; - themePrimary = light, themeSecondary = secondary&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-107.5" y="489.5" width="305" height="210.5" as="geometry" />
+        </mxCell>
+        <mxCell id="G19ihI2d8RyquOuAYGUl-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;store.js&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ store: Redux store&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - PersistReducer for theme&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-354" y="312.5" width="164" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="G19ihI2d8RyquOuAYGUl-2" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G19ihI2d8RyquOuAYGUl-1" target="o78r06us4_VVv2FsRsMG-53" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-330" y="290" as="sourcePoint" />
+            <mxPoint x="-170" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G19ihI2d8RyquOuAYGUl-3" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G19ihI2d8RyquOuAYGUl-1" target="o78r06us4_VVv2FsRsMG-52" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-385" y="275" as="sourcePoint" />
+            <mxPoint x="-110" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G19ihI2d8RyquOuAYGUl-4" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G19ihI2d8RyquOuAYGUl-1" target="G19ihI2d8RyquOuAYGUl-0" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-385" y="275" as="sourcePoint" />
+            <mxPoint x="-65" y="415" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G19ihI2d8RyquOuAYGUl-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;index.js&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ render()&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Provides Redux store&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Use BrowserRouter&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Use PersistGate&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-580" y="297.5" width="150" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="G19ihI2d8RyquOuAYGUl-6" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G19ihI2d8RyquOuAYGUl-5" target="G19ihI2d8RyquOuAYGUl-1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-493" y="269.29" as="sourcePoint" />
+            <mxPoint x="-333" y="269.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G19ihI2d8RyquOuAYGUl-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;index.html&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ &amp;lt;div id=&quot;root&quot;&amp;gt;&amp;lt;/div&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-580" y="439.5" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="G19ihI2d8RyquOuAYGUl-8" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G19ihI2d8RyquOuAYGUl-5" target="G19ihI2d8RyquOuAYGUl-7" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-420" y="355" as="sourcePoint" />
+            <mxPoint x="-340" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G19ihI2d8RyquOuAYGUl-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;Login (Login.js)&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;i&gt;From Redux store:&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;isDarkMode: boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ themePrimary: string&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ themeSecondary: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ isLoggedIn: boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ message: string&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ handleLogin()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Log in using authService.login()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Navigate to /profile page&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Log in form&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Username, password fields&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Login button&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Response message&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Redirect to register page&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1530" y="120" width="200" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="T6sVqjem1wDDPGQTzG8w-0" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;Register (Register.js)&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;i&gt;From Redux store:&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;isDarkMode: boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ themePrimary: string&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ themeSecondary: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ isLoggedIn: boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ message: string&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ handleRegister()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Register using authService.register()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Register form&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Username, email, password, confirm password fields&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Register button&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Response message&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Redirect to login page&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1630" y="410" width="300" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="T6sVqjem1wDDPGQTzG8w-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;App (App.js)&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;i&gt;From Redux store:&lt;/i&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;isDarkMode: boolean&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ themePrimary: string&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ user: JSON Object&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ setLight(), setDark()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Set theme using Redux&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ useEffect()&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Show dashboard based on user level&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Logout using eventBus event listeners&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ Show/hide navbar on scroll up/down&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ Navbar&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ React Router links&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1030" y="230" width="300" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="T6sVqjem1wDDPGQTzG8w-2" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G19ihI2d8RyquOuAYGUl-5" target="T6sVqjem1wDDPGQTzG8w-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-870" y="480" as="sourcePoint" />
+            <mxPoint x="-710" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T6sVqjem1wDDPGQTzG8w-3" value="parent" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" parent="T6sVqjem1wDDPGQTzG8w-2" connectable="0" vertex="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T6sVqjem1wDDPGQTzG8w-4" value="child" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" parent="T6sVqjem1wDDPGQTzG8w-2" connectable="0" vertex="1">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VbMJlNFKhP8BISAlGIU2-0" value="&lt;p style=&quot;border-color: var(--border-color); margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;eventBus(EventBus.js)&lt;/i&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;hr style=&quot;border-color: var(--border-color);&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ on()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; - Add event listener&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ dispatch()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; - Dispatch event&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;+ remove()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; - Remove event listener&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-955" y="60" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VbMJlNFKhP8BISAlGIU2-1" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T6sVqjem1wDDPGQTzG8w-1" target="VbMJlNFKhP8BISAlGIU2-0" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-880" y="460" as="sourcePoint" />
+            <mxPoint x="-865" y="-50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VbMJlNFKhP8BISAlGIU2-2" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T6sVqjem1wDDPGQTzG8w-1" target="G19ihI2d8RyquOuAYGUl-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1100" y="344.41" as="sourcePoint" />
+            <mxPoint x="-1250" y="344.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VbMJlNFKhP8BISAlGIU2-3" value="parent" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" parent="VbMJlNFKhP8BISAlGIU2-2" connectable="0" vertex="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VbMJlNFKhP8BISAlGIU2-4" value="child" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" parent="VbMJlNFKhP8BISAlGIU2-2" connectable="0" vertex="1">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VbMJlNFKhP8BISAlGIU2-5" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T6sVqjem1wDDPGQTzG8w-1" target="T6sVqjem1wDDPGQTzG8w-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1170" y="420" as="sourcePoint" />
+            <mxPoint x="-1320" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VbMJlNFKhP8BISAlGIU2-6" value="parent" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" parent="VbMJlNFKhP8BISAlGIU2-5" connectable="0" vertex="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VbMJlNFKhP8BISAlGIU2-7" value="child" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" parent="VbMJlNFKhP8BISAlGIU2-5" connectable="0" vertex="1">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="27" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VbMJlNFKhP8BISAlGIU2-8" value="&lt;p style=&quot;border-color: var(--border-color); margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;BoardUser (BoardUser.js)&lt;/i&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;hr style=&quot;border-color: var(--border-color);&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;+ useEffect()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;&amp;nbsp; - Get user board from userService&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; - Logout using eventBus if user not found&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;+ Render user dashboard&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1590" y="-220" width="240" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="VbMJlNFKhP8BISAlGIU2-12" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="o78r06us4_VVv2FsRsMG-53" target="o78r06us4_VVv2FsRsMG-45" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="44.29000000000002" y="-50" as="sourcePoint" />
+            <mxPoint x="44.29000000000002" y="-110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VbMJlNFKhP8BISAlGIU2-13" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T6sVqjem1wDDPGQTzG8w-1" target="VbMJlNFKhP8BISAlGIU2-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-750" y="-90" as="sourcePoint" />
+            <mxPoint x="-1050" y="-190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1180" y="345" />
+              <mxPoint x="-1180" y="-40" />
+              <mxPoint x="-1470" y="-40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VbMJlNFKhP8BISAlGIU2-14" value="parent" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" parent="VbMJlNFKhP8BISAlGIU2-13" connectable="0" vertex="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VbMJlNFKhP8BISAlGIU2-15" value="child" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" parent="VbMJlNFKhP8BISAlGIU2-13" connectable="0" vertex="1">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="20" y="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qdrn0FfMMA2Ld0mhKXjm-0" value="&lt;p style=&quot;border-color: var(--border-color); margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;BoardAdmin (BoardAdmin.js)&lt;/i&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;hr style=&quot;border-color: var(--border-color);&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;+ useEffect()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;&amp;nbsp; - Get admin board from userService&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; - Logout using eventBus if user not found&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;+ Render admin dashboard&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1030" y="-220" width="240" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdrn0FfMMA2Ld0mhKXjm-1" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-910" y="-260" as="sourcePoint" />
+            <mxPoint x="-630" y="-260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qdrn0FfMMA2Ld0mhKXjm-2" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="T6sVqjem1wDDPGQTzG8w-1" target="Qdrn0FfMMA2Ld0mhKXjm-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1020" y="355" as="sourcePoint" />
+            <mxPoint x="-1240" y="-125" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1180" y="345" />
+              <mxPoint x="-1180" y="-40" />
+              <mxPoint x="-910" y="-40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qdrn0FfMMA2Ld0mhKXjm-3" value="parent" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" parent="Qdrn0FfMMA2Ld0mhKXjm-2" connectable="0" vertex="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qdrn0FfMMA2Ld0mhKXjm-4" value="child" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" parent="Qdrn0FfMMA2Ld0mhKXjm-2" connectable="0" vertex="1">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="20" y="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qdrn0FfMMA2Ld0mhKXjm-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;Home (Home.js)&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;+ useEffect()&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; - Get public content from userService&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;+ Render public content&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1860" y="-212.5" width="220" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdrn0FfMMA2Ld0mhKXjm-6" value="&lt;p style=&quot;border-color: var(--border-color); margin: 4px 0px 0px; text-align: center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;BoardModerator (BoardModerator.js)&lt;/i&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;hr style=&quot;border-color: var(--border-color);&quot; size=&quot;1&quot;&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;+ useEffect()&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;&amp;nbsp; - Get moderator board from userService&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; - Logout using eventBus if user not found&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;+ Render moderator dashboard&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1310" y="-220" width="240" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="Qdrn0FfMMA2Ld0mhKXjm-7" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="Qdrn0FfMMA2Ld0mhKXjm-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1030" y="345" as="sourcePoint" />
+            <mxPoint x="-910" y="-125" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1180" y="345" />
+              <mxPoint x="-1180" y="-125" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qdrn0FfMMA2Ld0mhKXjm-8" value="parent" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" parent="Qdrn0FfMMA2Ld0mhKXjm-7" connectable="0" vertex="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qdrn0FfMMA2Ld0mhKXjm-9" value="child" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" parent="Qdrn0FfMMA2Ld0mhKXjm-7" connectable="0" vertex="1">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="20" y="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qdrn0FfMMA2Ld0mhKXjm-10" value="" style="endArrow=none;html=1;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" target="Qdrn0FfMMA2Ld0mhKXjm-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1030" y="345" as="sourcePoint" />
+            <mxPoint x="-1470" y="-125" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1180" y="345" />
+              <mxPoint x="-1180" y="-40" />
+              <mxPoint x="-1750" y="-40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qdrn0FfMMA2Ld0mhKXjm-11" value="parent" style="edgeLabel;resizable=0;html=1;align=left;verticalAlign=bottom;" parent="Qdrn0FfMMA2Ld0mhKXjm-10" connectable="0" vertex="1">
+          <mxGeometry x="-1" relative="1" as="geometry">
+            <mxPoint x="-40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qdrn0FfMMA2Ld0mhKXjm-12" value="child" style="edgeLabel;resizable=0;html=1;align=right;verticalAlign=bottom;" parent="Qdrn0FfMMA2Ld0mhKXjm-10" connectable="0" vertex="1">
+          <mxGeometry x="1" relative="1" as="geometry">
+            <mxPoint x="20" y="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qdrn0FfMMA2Ld0mhKXjm-13" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Qdrn0FfMMA2Ld0mhKXjm-6" target="Qdrn0FfMMA2Ld0mhKXjm-0" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-890" y="-70" as="sourcePoint" />
+            <mxPoint x="-840" y="-120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1190" y="-260" />
+              <mxPoint x="-910" y="-260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qdrn0FfMMA2Ld0mhKXjm-16" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="VbMJlNFKhP8BISAlGIU2-8" target="Qdrn0FfMMA2Ld0mhKXjm-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1469.9999999999995" y="-220" as="sourcePoint" />
+            <mxPoint x="-1189.9999999999995" y="-220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1470" y="-260" />
+              <mxPoint x="-1190" y="-260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qdrn0FfMMA2Ld0mhKXjm-17" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Qdrn0FfMMA2Ld0mhKXjm-5" target="VbMJlNFKhP8BISAlGIU2-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1750" y="-220" as="sourcePoint" />
+            <mxPoint x="-1469.9999999999995" y="-220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1750" y="-260" />
+              <mxPoint x="-1470" y="-260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nKa24xUeDjwXNJ96Cyu8-0" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;server.js&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ Set up Express&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Use CORS, parse requests with JSON and urlencoded formats&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ Set up MongoDB&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Use models and DB config&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Open connection using Mongoose&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Initialize data in Role collection (admin, moderator, user)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ Set up routes&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Base + authentication + authorization routes&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ Set port&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1306.5" y="886.25" width="370" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="nKa24xUeDjwXNJ96Cyu8-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Client&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=70;height=30;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1890" y="-520" width="2160" height="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="nKa24xUeDjwXNJ96Cyu8-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;models/index.js&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ db: JSON Object&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - db.user, db.role, db.refreshToken&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - db.ROLES: array&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; - user, admin, moderator&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ Initialize Mongoose&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ Link to collections&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-649" y="1125" width="210" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="nKa24xUeDjwXNJ96Cyu8-10" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;config/auth.config.js&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ secret: String&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Secret key for encoding token&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ jwtExpiration: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ jwtRefreshExpiration: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-936.5" y="1196.25" width="195" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="nKa24xUeDjwXNJ96Cyu8-12" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nKa24xUeDjwXNJ96Cyu8-10" target="Fvl-0evFQpNGjTBdgubq-4" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-359" y="1310" as="sourcePoint" />
+            <mxPoint x="-269" y="1253.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fvl-0evFQpNGjTBdgubq-0" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Fvl-0evFQpNGjTBdgubq-1" target="Fvl-0evFQpNGjTBdgubq-2" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-909" y="1220" as="sourcePoint" />
+            <mxPoint x="-519" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fvl-0evFQpNGjTBdgubq-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;Role (models/role.js)&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Role: Mongoose model&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - name: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-231" y="936.25" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvl-0evFQpNGjTBdgubq-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;User (models/user.js)&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ User: Mongoose model&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - username: String&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - email: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - password: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - roles: f&lt;span style=&quot;background-color: initial;&quot;&gt;oreign key from Role collection: array of id&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-311" y="1101.25" width="310" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvl-0evFQpNGjTBdgubq-3" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;fontSize=12;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Fvl-0evFQpNGjTBdgubq-2" target="Fvl-0evFQpNGjTBdgubq-4" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-494" y="1259.38" as="sourcePoint" />
+            <mxPoint x="-299" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fvl-0evFQpNGjTBdgubq-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;RefreshToken (models/refreshToken.js)&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ RefreshToken: Mongoose model&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - RefreshTokenSchema: Mongoose schema&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; - token: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; - user: foreign key from User collection: id&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; - expiryDate: date&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ createToken()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Creates refresh token and saves to schema&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Use expiry duration in config (jwtRefreshExpiration)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ verifyExpiration()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-306" y="1286.25" width="300" height="177.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvl-0evFQpNGjTBdgubq-7" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nKa24xUeDjwXNJ96Cyu8-2" target="Fvl-0evFQpNGjTBdgubq-2" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-809" y="1220" as="sourcePoint" />
+            <mxPoint x="-649" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fvl-0evFQpNGjTBdgubq-9" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nKa24xUeDjwXNJ96Cyu8-2" target="Fvl-0evFQpNGjTBdgubq-4" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-809" y="1220" as="sourcePoint" />
+            <mxPoint x="-649" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fvl-0evFQpNGjTBdgubq-10" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nKa24xUeDjwXNJ96Cyu8-2" target="Fvl-0evFQpNGjTBdgubq-1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-809" y="1220" as="sourcePoint" />
+            <mxPoint x="-649" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fvl-0evFQpNGjTBdgubq-12" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;routes/user.routes.js&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;+ Set headers&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ Authorization routes&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;&amp;nbsp;- GET /dashboard/all&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - GET /dashboard/user&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - GET /dashboard/mod for moderator&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - GET /dashboard/admin for admin&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1639" y="1040" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvl-0evFQpNGjTBdgubq-15" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;middlewares/authJwt.js&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ db: JSON Object&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - db.user, db.role, db.refreshToken&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - db.ROLES: array&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; - user, admin, moderator&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ verifyToken()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Check if token is legal&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; + catchError()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; - Helper function to handle error (401)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ isAdmin(), isModerator()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Checks User and Role collections for user and their role&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-999" y="1361.25" width="320" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvl-0evFQpNGjTBdgubq-18" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Fvl-0evFQpNGjTBdgubq-15" target="nKa24xUeDjwXNJ96Cyu8-2" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1319" y="1000" as="sourcePoint" />
+            <mxPoint x="-1159" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fvl-0evFQpNGjTBdgubq-19" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Fvl-0evFQpNGjTBdgubq-15" target="nKa24xUeDjwXNJ96Cyu8-10" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1199" y="1110" as="sourcePoint" />
+            <mxPoint x="-1039" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fvl-0evFQpNGjTBdgubq-20" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;middlewares/index.js&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ Export authJwt, verifySignup&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1329" y="1431.25" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvl-0evFQpNGjTBdgubq-21" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;middlewares/verifySignUp.js&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+&amp;nbsp;checkDuplicateUsernameOrEmail()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Check User collection for duplicate username or emails&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ checkRolesExisted()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Check Roles collection to see if role is valid&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-999" y="1595.25" width="320" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvl-0evFQpNGjTBdgubq-22" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Fvl-0evFQpNGjTBdgubq-20" target="Fvl-0evFQpNGjTBdgubq-21" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1649" y="1210" as="sourcePoint" />
+            <mxPoint x="-1489" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fvl-0evFQpNGjTBdgubq-23" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Fvl-0evFQpNGjTBdgubq-20" target="Fvl-0evFQpNGjTBdgubq-15" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1649" y="1210" as="sourcePoint" />
+            <mxPoint x="-1489" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fvl-0evFQpNGjTBdgubq-11" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;routes/auth.routes.js&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;+ Set headers&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ Authentication routes&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - POST /auth/register&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; - Check duplicate username + emails, whether roles exist using verifySignup&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - POST /auth/login&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; - Use auth.controller&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - POST /auth/refreshtoken&lt;br&gt;&amp;nbsp; &amp;nbsp; - Use auth.controller&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1439" y="1190" width="430" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Fvl-0evFQpNGjTBdgubq-28" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;controllers/auth.controller.js&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ signup()&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Encrypt password, save with username and email to User collection&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Check role(s) in request against Role collection, update&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ signin()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Find username in User collection&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Encrypt input and compare to password in User collection using bcryptjs&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Create access token using&amp;nbsp;jsonwebtoken, expiry time from&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;auth.config&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Create RefreshToken using its collection&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Find user roles from Role collection&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Send response with username, email, roles, access token, refresh token&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-804" y="840" width="450" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="6V_UsMH_qC6ASBmldift-0" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Fvl-0evFQpNGjTBdgubq-28" target="nKa24xUeDjwXNJ96Cyu8-2" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1749" y="1100" as="sourcePoint" />
+            <mxPoint x="-1589" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6V_UsMH_qC6ASBmldift-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;controllers/user.controller.js&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ allAccess()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - Respond with public content&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;+ userBoard()&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; - Respond with user content&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;+ adminBoard()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; - Respond with admin content&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp;+ moderatorBoard()&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&lt;/p&gt;&lt;p style=&quot;border-color: var(--border-color); margin: 0px 0px 0px 4px;&quot;&gt;&amp;nbsp; - Respond with moderator content&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;labelBorderColor=none;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1629" y="800" width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="6V_UsMH_qC6ASBmldift-3" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Fvl-0evFQpNGjTBdgubq-28" target="nKa24xUeDjwXNJ96Cyu8-10" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1339" y="1350" as="sourcePoint" />
+            <mxPoint x="-1179" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6V_UsMH_qC6ASBmldift-4" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Fvl-0evFQpNGjTBdgubq-21" target="nKa24xUeDjwXNJ96Cyu8-2" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1229" y="1120" as="sourcePoint" />
+            <mxPoint x="-1069" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6V_UsMH_qC6ASBmldift-6" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Fvl-0evFQpNGjTBdgubq-11" target="Fvl-0evFQpNGjTBdgubq-28" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1009" y="1265" as="sourcePoint" />
+            <mxPoint x="-1069" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6V_UsMH_qC6ASBmldift-7" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Fvl-0evFQpNGjTBdgubq-11" target="Fvl-0evFQpNGjTBdgubq-20" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1229" y="1120" as="sourcePoint" />
+            <mxPoint x="-1069" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6V_UsMH_qC6ASBmldift-8" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Fvl-0evFQpNGjTBdgubq-12" target="6V_UsMH_qC6ASBmldift-1" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1369" y="1050" as="sourcePoint" />
+            <mxPoint x="-1819" y="1230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6V_UsMH_qC6ASBmldift-9" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Fvl-0evFQpNGjTBdgubq-12" target="Fvl-0evFQpNGjTBdgubq-20" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1369" y="1050" as="sourcePoint" />
+            <mxPoint x="-1209" y="1050" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1529" y="1210" />
+              <mxPoint x="-1529" y="1456" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6V_UsMH_qC6ASBmldift-10" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nKa24xUeDjwXNJ96Cyu8-0" target="Fvl-0evFQpNGjTBdgubq-12" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1089" y="960" as="sourcePoint" />
+            <mxPoint x="-929" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6V_UsMH_qC6ASBmldift-11" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nKa24xUeDjwXNJ96Cyu8-0" target="Fvl-0evFQpNGjTBdgubq-11" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1089" y="960" as="sourcePoint" />
+            <mxPoint x="-929" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6V_UsMH_qC6ASBmldift-12" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nKa24xUeDjwXNJ96Cyu8-0" target="nKa24xUeDjwXNJ96Cyu8-10" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1089" y="960" as="sourcePoint" />
+            <mxPoint x="-1089" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6V_UsMH_qC6ASBmldift-13" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="nKa24xUeDjwXNJ96Cyu8-0" target="nKa24xUeDjwXNJ96Cyu8-2" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-1089" y="1200" as="sourcePoint" />
+            <mxPoint x="-929" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6V_UsMH_qC6ASBmldift-15" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Server&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=70;height=30;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="-1660" y="760" width="1690" height="950" as="geometry" />
+        </mxCell>
+        <mxCell id="oiYM5zvoh1VBZlKMviJj-0" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;instance (api.js)&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ Create axios base instance&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - baseUrl: http://localhost:8080&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;labelBorderColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-50" y="-490" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oiYM5zvoh1VBZlKMviJj-1" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="o78r06us4_VVv2FsRsMG-45" target="oiYM5zvoh1VBZlKMviJj-0">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="44.29" y="-207" as="sourcePoint" />
+            <mxPoint x="44.29" y="-420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oiYM5zvoh1VBZlKMviJj-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;setup (setupInterceptors.js)&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;initialState: JSON Object&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - message: string&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ setup()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; - Adds user&#39;s x-access-token to incoming request&#39;s header&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; - If request fails once, try again once more (handles infinite retry error)&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;labelBorderColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-705" y="120" width="400" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="oiYM5zvoh1VBZlKMviJj-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i style=&quot;border-color: var(--border-color);&quot;&gt;TokenService (token.service.js)&lt;/i&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+&amp;nbsp;initialState: JSON Object&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; - message: string&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ getLocalRefreshToken()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp; - Get user&#39;s refresh token from local storage&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+&amp;nbsp;getLocalAccessToken(),&amp;nbsp;updateLocalAccessToken()&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp; &amp;nbsp;&amp;nbsp;- Get/update user&#39;s access token from local storage&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&amp;nbsp;+ getUser(), setUser(), removeUser()&lt;/p&gt;&amp;nbsp; &amp;nbsp; - Get/set/remove user from local storage&lt;br&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;dashed=1;labelBorderColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-655" y="-105" width="300" height="165" as="geometry" />
+        </mxCell>
+        <mxCell id="oiYM5zvoh1VBZlKMviJj-5" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="G19ihI2d8RyquOuAYGUl-5" target="oiYM5zvoh1VBZlKMviJj-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-505" y="240" as="sourcePoint" />
+            <mxPoint x="-495" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oiYM5zvoh1VBZlKMviJj-6" value="Use" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="oiYM5zvoh1VBZlKMviJj-3" target="oiYM5zvoh1VBZlKMviJj-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-495" y="308" as="sourcePoint" />
+            <mxPoint x="-495" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

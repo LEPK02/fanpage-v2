@@ -113,7 +113,7 @@ const App = () => {
               className={`text-bg-${themePrimary}`}
             >
               <div id="offcanvas-shadow">
-                <Offcanvas.Header closeButton closeVariant={isDarkMode ? `white` : `black`}>
+                <Offcanvas.Header closeButton closeVariant={isDarkMode ? ["white"] : ["black"]}>
                   <NavItem>
                     <ThemeControl />
                   </NavItem>
