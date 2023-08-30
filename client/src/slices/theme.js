@@ -16,6 +16,7 @@ const initialState = {
 export function changeBackground(color) {
   if (document.getElementById("root").style.background !== color) {
     document.getElementById("root").style.background = color;
+    document.body.style.background = color;
   }
 }
 

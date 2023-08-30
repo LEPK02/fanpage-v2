@@ -1,6 +1,10 @@
 # Fanpage v4
 ## Open documentation files with
 [DrawIO](https://app.diagrams.net/)
+## v 4.0.6.1
+- Bug fixes
+  - [Nginx 404 on refresh error](https://stackoverflow.com/questions/43555282/react-js-application-showing-404-not-found-in-nginx-server)
+	- Fixed background
 ## v 4.0.6
 - [Dockerize](https://www.bezkoder.com/docker-mern/)
 	- Start container: docker-compose up --build -d
