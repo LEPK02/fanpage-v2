@@ -7,13 +7,9 @@ import React, { useState, useEffect, useCallback } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Routes, Route, Link } from "react-router-dom";
 
-import Login from "./components/Login";
-import Register from "./components/Register";
-import Home from "./components/Home";
-import Profile from "./components/Profile";
-import BoardAdmin from "./components/BoardAdmin";
-import BoardModerator from "./components/BoardModerator";
-import BoardUser from "./components/BoardUser";
+import routes from "./routes";
+import { SiteMap } from "./components/SiteMap";
+
 import ThemeControl from "./components/ThemeControl";
 
 import { logout } from "./slices/auth";
@@ -49,6 +45,11 @@ const App = () => {
   // Control display of boards
   const [showModeratorBoard, setShowModeratorBoard] = useState(false);
   const [showAdminBoard, setShowAdminBoard] = useState(false);
+
+  // Control offcanvas menu show/hide
+  const [menuOpen, setMenuOpen] = useState(false);
+  const toggleOffcanvasMenu = () => {setMenuOpen(!menuOpen)};
+  const handleOffcanvasMenuClose = () => setMenuOpen(false);
 
   useEffect(() => {
     // Show dashboards based on user level
@@ -105,12 +106,18 @@ const App = () => {
             <div id="main-themecontrol">
               <ThemeControl />
             </div>
-            <Navbar.Toggle aria-controls="offcanvasNavbar-expand-lg" />
+            <Navbar.Toggle
+              aria-controls="offcanvasNavbar-expand-lg"
+              onClick={toggleOffcanvasMenu}
+            />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-lg`}
               aria-labelledby={`offcanvasNavbarLabel-expand-lg`}
               placement="end"
               className={`text-bg-${themePrimary}`}
+              restoreFocus={false}
+              show={menuOpen}
+              onHide={handleOffcanvasMenuClose}
             >
               <div id="offcanvas-shadow">
                 <Offcanvas.Header closeButton closeVariant={isDarkMode ? ["white"] : ["black"]}>
@@ -170,13 +177,13 @@ const App = () => {
                   ) : (
                     <>
                       <NavItem>
-                        <Nav.Link as={Link} to={"/login"}>
+                        <Nav.Link as={Link} to={"/login"} onClick={handleOffcanvasMenuClose}>
                           Login
                         </Nav.Link>
                       </NavItem>
 
                       <NavItem>
-                        <Nav.Link as={Link} to={"/register"}>
+                        <Nav.Link as={Link} to={"/register"} onClick={handleOffcanvasMenuClose}>
                           Register
                         </Nav.Link>
                       </NavItem>
@@ -188,19 +195,15 @@ const App = () => {
           </Container>
         </Container>
       </Navbar>
+      <SiteMap></SiteMap>
       
-      <Container>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/home" element={<Home />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
-          <Route path="/profile" element={<Profile />} />
-          <Route path="/user" element={<BoardUser />} />
-          <Route path="/mod" element={<BoardModerator />} />
-          <Route path="/admin" element={<BoardAdmin />} />
-        </Routes>
-      </Container>
+      <Routes>
+        {
+          routes.map(({path, Component}) => (
+            <Route exact path={path} element={Component} />
+          ))
+        }
+      </Routes>
     </>
   );
 };

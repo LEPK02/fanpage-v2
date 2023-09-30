@@ -1,3 +1,13 @@
+a.text-light.fw-bold:hover,
+a.text-dark.fw-bold:hover {
+  opacity: 0.75;
+}
+
+a.text-light.fw-bold:active,
+a.text-dark.fw-bold:active {
+  opacity: 0.25;
+}
+
 .shadow-dark {
   box-shadow: 0 3px 10px rgba(255, 255, 255, 0.2);
 }
@@ -24,7 +34,7 @@
 }
 
 #password-tooltip.dark .tooltip-arrow::before {
-  border-right-color: var(--lightPrimary);
+  border-top-color: var(--lightPrimary);
 }
 
 #password-tooltip.light .tooltip-inner {
@@ -33,5 +43,5 @@
 }
 
 #password-tooltip.light .tooltip-arrow::before {
-  border-right-color: var(--darkPrimary);
+  border-top-color: var(--darkPrimary);
 }

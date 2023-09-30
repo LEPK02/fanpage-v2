@@ -28,6 +28,7 @@ import Row from 'react-bootstrap/Row';
 import Spinner from 'react-bootstrap/Spinner';
 import Tooltip from 'react-bootstrap/Tooltip';
 import "./Register.css";
+import { PasswordVisible, PasswordInvisible } from './icons/PasswordIcons.js';
 
 const Register = () => {
   // themeSlice from Redux
@@ -55,19 +56,19 @@ const Register = () => {
     validateOnChange: false,
     validationSchema: Yup.object().shape({
       username: Yup.string()
-      .test(
-        "len",
-        "Must be between 3 and 20 characters",
-        (val) =>
-        val &&
-        val.toString().length >= 3 &&
-        val.toString().length <= 20
-        )
-        .required("Required"),
-        email: Yup.string()
+        .required("Required")
+        .test(
+          "len",
+          "Must be between 3 and 20 characters",
+          (val) =>
+          val &&
+          val.toString().length >= 3 &&
+          val.toString().length <= 20
+        ),
+      email: Yup.string()
         .email("Invalid email")
         .required("Required"),
-        password: Yup.string()
+      password: Yup.string()
         .min(8, 'Invalid password')
         .matches(/[0-9]/, 'Must contain at least 1 number')
         .matches(/[a-z]/, 'Must contain at least 1 lowercase character')
@@ -75,7 +76,7 @@ const Register = () => {
         .matches(/[^\w]/, 'Must contain at least 1 special character')
         .max(40, "Must contain less than 41 characters")
         .required("Required"),
-        confirmPassword: Yup.string()
+      confirmPassword: Yup.string()
         .oneOf([Yup.ref('password'), null], 'Passwords must match')
         .required("Required"),
       }),
@@ -91,6 +92,7 @@ const Register = () => {
   const [loading, setLoading] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
+  const [showPasswordRequirements, setShowPasswordRequirements] = useState(false);
 
   // Register using AuthService via Redux
   const handleRegister = (formValue) => {
@@ -169,10 +171,12 @@ const Register = () => {
                             Password&nbsp;
                             {/* Password requirement tooltip START */}
                             <OverlayTrigger
-                              placement="right"
+                              placement="top"
+                              show={showPasswordRequirements}
+                              // trigger={['hover', 'focus', 'click']}
                               overlay={
                                 <Tooltip id="password-tooltip" className={themePrimary}>
-                                  <u>Password must have:</u><br />
+                                  <u>Password should contain:</u><br />
                                   <ul className='m-0'>
                                     <li>8 to 40 characters</li>
                                     <li>&#8805;1 uppercase</li>
@@ -197,7 +201,8 @@ const Register = () => {
                               name="password"
                               value={formik.values.password}
                               onChange={formik.handleChange}
-                              onBlur={formik.handleBlur}
+                              onBlur={(e) => {formik.handleBlur(e); setShowPasswordRequirements(false)}}
+                              onFocus={() => setShowPasswordRequirements(true)}
                               isInvalid={!!formik.errors.password}
                               isValid={formik.touched.password && !formik.errors.password && validated}
                               aria-label="Password with show addon"
@@ -206,10 +211,7 @@ const Register = () => {
                             />
                             {/* Button to show password START */}
                             <Button variant={`outline-${themeSecondary}`} onClick={()=>setShowPassword(!showPassword)}>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-eye" viewBox="0 0 16 16">
-                                <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
-                                <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
-                              </svg>
+                              {showPassword ? <PasswordInvisible /> : <PasswordVisible />}
                             </Button>
                             {/* Button to show password END */}
                             <Form.Control.Feedback type="invalid">{formik.errors.password}</Form.Control.Feedback>
@@ -236,10 +238,7 @@ const Register = () => {
                             />
                             {/* Button to show password START */}
                             <Button variant={`outline-${themeSecondary}`} onClick={()=>setShowConfirmPassword(!showConfirmPassword)}>
-                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-eye" viewBox="0 0 16 16">
-                                <path d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z"/>
-                                <path d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z"/>
-                              </svg>
+                              {showConfirmPassword ? <PasswordInvisible /> : <PasswordVisible />}
                             </Button>
                             {/* Button to show password END */}
                             <Form.Control.Feedback type="invalid">{formik.errors.confirmPassword}</Form.Control.Feedback>

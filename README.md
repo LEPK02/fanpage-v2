@@ -1,6 +1,15 @@
 # Fanpage v4
 ## Open documentation files with
 [DrawIO](https://app.diagrams.net/)
+## v 4.0.6.2
+- Added breadcrumbs
+	- [Dynamic breadcrumb routes](https://pavsaund.com/post/2022-02-23-dynamic-breadcrumbs-and-routes-with-react-router/)
+- Bug fixes
+	- [Close offcanvas menu on navigate](https://stackoverflow.com/questions/71211745/im-trying-to-close-the-offcanvas-menu-in-react-bootstrap-when-i-click-a-link)\
+	- Register & login page
+		- Fixed redirect links' active and hover states' styles
+		- Fixed password requirement popup
+		- Fixed show/hide password icon
 ## v 4.0.6.1
 - Bug fixes
   - [Nginx 404 on refresh error](https://stackoverflow.com/questions/43555282/react-js-application-showing-404-not-found-in-nginx-server)

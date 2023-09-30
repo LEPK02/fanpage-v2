@@ -1,0 +1,58 @@
+#breadcrumb-container {
+  width: 100%;
+  height: 0;
+  z-index: 99;
+  padding: 0 var(--navbarPaddingX);
+}
+
+#breadcrumb-container .breadcrumb {
+  margin: var(--breadcrumbMargin) 0;
+  max-height: var(--breadcrumb-height);
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.breadcrumb-item.breadcrumb-light a,
+.breadcrumb-item.breadcrumb-light a::before,
+.breadcrumb-item.breadcrumb-light::before {
+  color: var(--lightPrimary);
+  opacity: 0.8;
+}
+
+.breadcrumb-item.breadcrumb-light a:hover {
+  opacity: 1;
+}
+
+.breadcrumb-item.breadcrumb-light a:active {
+  opacity: 1;
+  color: var(--darkSecondary);
+}
+
+.breadcrumb-item.breadcrumb-light.active,
+.breadcrumb-item.breadcrumb-light.active::before {
+  color: var(--lightPrimary);
+  font-weight: 600;
+}
+
+.breadcrumb-item.breadcrumb-dark a,
+.breadcrumb-item.breadcrumb-dark a::before,
+.breadcrumb-item.breadcrumb-dark::before {
+  color: var(--darkPrimary);
+  opacity: 0.8;
+}
+
+.breadcrumb-item.breadcrumb-dark a:hover {
+  opacity: 1;
+}
+
+.breadcrumb-item.breadcrumb-dark a:active {
+  opacity: 1;
+  color: var(--lightSecondary);
+}
+
+.breadcrumb-item.breadcrumb-dark.active,
+.breadcrumb-item.breadcrumb-dark.active::before {
+  color: var(--darkPrimary);
+  font-weight: 600;
+}
