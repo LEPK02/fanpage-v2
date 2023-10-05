@@ -8,13 +8,14 @@ import "./SiteMap.css";
 
 export const SiteMap = () => {
   // themeSlice from Redux
+  const themePrimary = useSelector((state) => state.theme.themePrimary);
   const themeSecondary = useSelector((state) => state.theme.themeSecondary);
 
   const currentPath = useLocation().pathname;
 
   const generateBreadcrumb = () => {
     const pathArr = currentPath.split("/").filter(val => val !== "").map((element) => element = '/'+element);
-    const overallRouteArr = [routes.find((route) => route.path === "/")];
+    const overallRouteArr = [];
     const routeIdxArr = [];
 
     pathArr.forEach((path, index, array) => {
@@ -49,7 +50,7 @@ export const SiteMap = () => {
   }
 
   return (
-    <Container id="breadcrumb-container" fluid>
+    <Container id="breadcrumb-container" className={`container-${themePrimary}`} fluid>
       <Breadcrumb>
         {
           generateBreadcrumb().map((route, key) =>

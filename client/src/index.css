@@ -1,7 +1,6 @@
 :root {
   --navbarHeight: 64px;
   --breadcrumbHeight: 24px;
-  --breadcrumbMargin: 5px;
   --darkPrimary: #212529;
   --darkSecondary: #000;
   --lightPrimary: #f8f9fa;
@@ -19,7 +18,7 @@ html {
 body {
   height: 100%;
   margin: 0;
-  padding-top: var(--navbarHeight);
+  /* padding-top: var(--navbarHeight); */
   /* overflow-x: hidden; */
   overflow: hidden;
   --bs-body-bg: var(--darkPrimary);
@@ -32,9 +31,9 @@ body {
   overflow: hidden;
 }
 
-#main-content {
+/* #main-content {
   height: 100%;
   width: 100%;
   padding: 0;
   margin: 0;
-}
+} */

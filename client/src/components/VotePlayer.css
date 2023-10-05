@@ -1,0 +1,72 @@
+#favourite-players-carousel {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-image: url(../assets/images/players/neuer-walkout.jpg);
+}
+
+#favourite-players-carousel .container {
+  width: 60%;
+  height: 50%;
+  min-width: 300px;
+  min-height: 300px;
+  max-width: 500px;
+  max-height: 500px;
+  overflow: hidden;
+  object-fit: contain;
+  padding: 0;
+}
+
+#favourite-players-carousel .container .carousel {
+  background-color: rgba(33, 37, 41, 0.95);
+  border-radius: 5px;
+}
+
+#favourite-players-carousel .container .carousel .carousel-inner .carousel-item .form-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  transition: all 1s ease-in-out;
+}
+
+#favourite-players-carousel .container .carousel .carousel-inner .carousel-item .form-container h1, #favourite-players-carousel .container .carousel .carousel-inner .carousel-item .form-container p {
+  color: white;
+}
+
+#favourite-players-carousel .container .carousel .carousel-inner .carousel-item .form-container img {
+  filter: brightness(0) invert(1);
+  width: 32px;
+  height: 32px;
+}
+
+#favourite-players-carousel .container .carousel .carousel-inner .carousel-item .form-container .container-fluid .custom-tooltip {
+  --bs-tooltip-bg: var(--bs-primary);
+}
+
+#favourite-players-carousel .container .carousel .carousel-inner .carousel-item .form-container .container-fluid button:hover img {
+  filter: brightness(0) invert(0);
+}
+
+#favourite-players-carousel .container .carousel .carousel-control-next, #favourite-players-carousel .container .carousel .carousel-control-prev {
+  width: fit-content;
+  height: fit-content;
+  opacity: 1;
+  position: absolute;
+  display: inline-block;
+  top: calc(100% - 20px - 38px);
+}
+
+#favourite-players-carousel .container .carousel .carousel-control-next {
+  right: 20px;
+}
+
+#favourite-players-carousel .container .carousel .carousel-control-prev {
+  left: 20px;
+}
+

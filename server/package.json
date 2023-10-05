@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LEPK02/fanpagev4.git"
+    "url": "git+https://github.com/LEPK02/fanpage-v2.git"
   },
   "keywords": [
     "node.js",
@@ -20,9 +20,9 @@
   "author": "LEPK",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/LEPK02/fanpagev4/issues"
+    "url": "https://github.com/LEPK02/fanpage-v2/issues"
   },
-  "homepage": "https://github.com/LEPK02/fanpagev4#readme",
+  "homepage": "https://github.com/LEPK02/fanpage-v2#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",

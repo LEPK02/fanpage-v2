@@ -120,7 +120,7 @@ const App = () => {
               onHide={handleOffcanvasMenuClose}
             >
               <div id="offcanvas-shadow">
-                <Offcanvas.Header closeButton closeVariant={isDarkMode ? ["white"] : ["black"]}>
+                <Offcanvas.Header closeButton closeVariant={isDarkMode ? "white" : undefined}>
                   <NavItem>
                     <ThemeControl />
                   </NavItem>
@@ -128,6 +128,28 @@ const App = () => {
               </div>
               <Offcanvas.Body>
                 <Nav className="me-auto">
+                  <NavDropdown
+                    title="Players"
+                    align="end"
+                    menuVariant={themePrimary}
+                    renderMenuOnMount={true}
+                  >
+                    <NavItem>
+                      <Nav.Link as={Link} to={"/players"} onClick={handleOffcanvasMenuClose}>
+                        Players
+                      </Nav.Link>
+                    </NavItem>
+                    <NavItem>
+                      <Nav.Link as={Link} to={"/vote-player"} onClick={handleOffcanvasMenuClose}>
+                        Vote
+                      </Nav.Link>
+                    </NavItem>
+                  </NavDropdown>
+                  <NavItem>
+                    <Nav.Link as={Link} to={"/teams"} onClick={handleOffcanvasMenuClose}>
+                      Teams
+                    </Nav.Link>
+                  </NavItem>
                   {currentUser ? (
                     <>
                       <NavDropdown
@@ -175,7 +197,12 @@ const App = () => {
                       </NavDropdown>
                     </>
                   ) : (
-                    <>
+                    <NavDropdown
+                      title="Account"
+                      align="end"
+                      menuVariant={themePrimary}
+                      renderMenuOnMount={true}
+                    >
                       <NavItem>
                         <Nav.Link as={Link} to={"/login"} onClick={handleOffcanvasMenuClose}>
                           Login
@@ -187,7 +214,7 @@ const App = () => {
                           Register
                         </Nav.Link>
                       </NavItem>
-                    </>
+                    </NavDropdown>
                   )}
                 </Nav>
               </Offcanvas.Body>
@@ -195,15 +222,16 @@ const App = () => {
           </Container>
         </Container>
       </Navbar>
-      <SiteMap></SiteMap>
-      
-      <Routes>
-        {
-          routes.map(({path, Component}) => (
-            <Route exact path={path} element={Component} />
-          ))
-        }
-      </Routes>
+      <div id="main-content">
+        <SiteMap></SiteMap>
+        <Routes>
+          {
+            routes.map(({path, Component}) => (
+              <Route exact path={path} element={Component} key={path} />
+            ))
+          }
+        </Routes>
+      </div>
     </>
   );
 };

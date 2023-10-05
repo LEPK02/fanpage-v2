@@ -1,13 +1,24 @@
 #breadcrumb-container {
   width: 100%;
-  height: 0;
+  margin: 0;
   z-index: 99;
   padding: 0 var(--navbarPaddingX);
+  position: absolute;
+  top: var(--navbarHeight);
+  left: 0;
+}
+
+#breadcrumb-container.container-dark {
+  background: var(--darkPrimary);
+}
+
+#breadcrumb-container.container-light {
+  background: var(--lightPrimary);
 }
 
 #breadcrumb-container .breadcrumb {
-  margin: var(--breadcrumbMargin) 0;
-  max-height: var(--breadcrumb-height);
+  max-height: var(--breadcrumbHeight);
+  margin: 0;
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;

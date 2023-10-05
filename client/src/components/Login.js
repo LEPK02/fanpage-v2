@@ -89,7 +89,7 @@ const Login = () => {
   }
 
   return (
-    <Container fluid className="main-container d-flex justify-content-center align-items-stretch">
+    <Container fluid className="main-container d-flex justify-content-center align-items-center">
         <Row className="d-flex justify-content-center align-items-center w-100">
           <Col xs={12} md={8} lg={6}>
             <Card
